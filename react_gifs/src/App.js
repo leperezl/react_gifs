@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import MyNav from './Components/MyNav';
-import {MyCard} from './Components/Card';
+import Gallery from './Components/Gallery';
 import React, { useEffect } from 'react'
 
 //import Nav from 'react-bootstrap/Nav';
@@ -20,7 +20,7 @@ function App() {
   return (
     <>
   <MyNav />
-  <MyCard name="rick" gender="man"></MyCard>
+  <Gallery />
      </>
   );
 }
